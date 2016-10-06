@@ -12,6 +12,5 @@ Flyspell
 - to enable fly-spell mode for program files, type M-x flyspell-prog-mode
 	- the init file has a book that automatically associates flyspell-prog-mode with program files
 - go to: https://ftp.gnu.org/old-gnu/Manuals/emacs-20.7/html_node/emacs_97.html to view commands for flyspell
-			 
 
 
