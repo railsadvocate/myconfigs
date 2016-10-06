@@ -1,0 +1,17 @@
+Magit
+--------------
+Installation instruction:
+Meta-x magit-status ---> like typing git status
+installation and documentation ---> https://magit.vc/manual/magit/Installing-from-the-Git-repository.html#Installing-from-the-Git-repository
+
+Flyspell
+--------
+- install ispell (a dependency of flyspell) with: brew install ispell
+- to enable fly-spell mode, type M-x flyspell-mode
+	- the init file has a hook that automatically associates flyspell mode with text-mode
+- to enable fly-spell mode for program files, type M-x flyspell-prog-mode
+	- the init file has a book that automatically associates flyspell-prog-mode with program files
+- go to: https://ftp.gnu.org/old-gnu/Manuals/emacs-20.7/html_node/emacs_97.html to view commands for flyspell
+			 
+
+
