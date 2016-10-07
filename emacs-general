@@ -1,7 +1,6 @@
 Magit
 --------------
-Installation instruction:
-Meta-x magit-status ---> like typing git status
+install 'dash' and 'with-editor' libraries through Melpa. (type M-x package-list-packages)
 installation and documentation ---> https://magit.vc/manual/magit/Installing-from-the-Git-repository.html#Installing-from-the-Git-repository
 
 Flyspell

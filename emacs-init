@@ -63,12 +63,21 @@
   (add-to-list 'Info-directory-list
 	       "~/.emacs.d/site-lisp/magit/Documentation/"))
 
-setting hooks
---------------
+; setting hooks
+; --------------
 (add-hook 'text-mode-hook 'flyspell-mode)
 (add-hook 'prog-mode-hook 'flyspell-prog-mode)
 
-keybindings
------------
+; keybindings
+; -----------
 (global-set-key (kbd "C-x g") 'magit-status)
 (global-set-key (kbd "C-i") 'ispell-word)
+
+; launch emacs in full screen mode
+(custom-set-variables
+ '(initial-frame-alist (quote ((fullscreen . maximized)))))
+
+; don't show default start up screen
+(setq inhibit-startup-screen t)
+
+
